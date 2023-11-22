@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ThanksPage</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container2">
+      <h1>
+        <span id="userNameInput" style="color: blue"></span><br />
+        Thank You For<br />
+        Subscribing!
+      </h1>
+      <!-- <p id="emailTextInput">
+        A confirmation email has been sent to Please open it and click the
+        button inside to confirm your subscription.
+      </p> -->
+      <p>
+        A confirmation email has been sent to
+        <b><span id="emailTextInput" style="color: blue"></span></b><br />
+        Please open it and click the button inside to confirm your subscription.
+      </p>
+      <br />
+      <br />
+      <br />
+      <!--<img src="Subscribe.png">-->
+      <button class="Btn">Dismiss message</button>
+    </div>
+    <script>
+      let emailTextInput = localStorage.getItem("email");
+      document.getElementById("emailTextInput").innerHTML = emailTextInput;
+      console.log(emailTextInput);
+      let userNameInput = localStorage.getItem("username");
+      document.getElementById("userNameInput").innerHTML = userNameInput;
+      console.log(userNameInput);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,100 @@
+body {
+  padding: 50px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  background-color: #1f065a;
+}
+
+.container {
+  display: flexbox;
+  /*align-items: center;*/
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  margin: 30px 250px;
+  border-radius: 20px;
+  background-color: white;
+  padding: 30px 30px 20px 30px;
+}
+
+.container2 {
+  display: flexbox;
+  /*align-items: center;*/
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  margin: 30px 450px;
+  border-radius: 20px;
+  background-color: white;
+  padding: 30px 30px 20px 30px;
+}
+
+.flex-container {
+  display: flex;
+  direction: right;
+  /*align-self: flex-end;*/
+  gap: 70px;
+}
+
+.toggleMessage {
+  display: flex;
+  direction: right;
+  gap: 100px;
+}
+
+#error {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-small;
+}
+
+.imgLogo {
+  height: 100%;
+  width: 300px;
+  border-image-width: 100%;
+}
+
+/*.imgLogo:hover {
+  height: 200px;
+  width: 320px;
+}*/
+
+.I-E-F {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.I-E-F:hover {
+  width: 100%;
+  padding: 12px;
+  border: 3px solid aliceblue;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background-color: aliceblue;
+}
+
+.Btn {
+  color: white;
+  font-weight: bold;
+  background-color: blue;
+  border: 1px solid blue;
+  width: 100%;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.Btn:hover {
+  color: white;
+  background-color: #1f065a;
+  border: 2px dotted blue;
+}

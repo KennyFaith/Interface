@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<htm lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stay With Us</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+    <div class="container">
+      <div class="flex-container">
+        <div>
+          <h1>Stay Updated!</h1>
+          <p>Join 60,000+ product managers receiving monthly <br />updates on:</p>
+          <ul>
+          <li>Product dicovery and building what matters</li>
+          <li>Measuring to ensure updates are a success</li>
+          <li>And much more!</li>
+          </ul>
+                <!--</div>-->
+                <!--<div>-->   
+          <form id="StayUpdated" onsubmit="ValidateForm(event)">
+            <p>Please Fill In Correct Details</p>
+            <label for="Username">Username</label>
+            <input
+              class="I-E-F"
+              id="username"
+              type="username"
+              name="username"
+              placeholder="Please Enter Desired Username"
+              required
+            />
+            <div class="toggleMessage">
+              <label for="E-mail">Email address</label>
+              <p id="error" style="color: red;"></p>
+            </div>
+            
+            <input
+              class="I-E-F"
+              id="email"
+              type="email"
+              name="email"
+              placeholder="email@gmail.com"
+              required
+            />
+            <br />
+            <br />
+           <button class="Btn" type="button" value="newsletterbtn" onclick="SubmitF()">
+              Subscribe to monthly newsletter</button>
+          </form>
+        </div>
+        <div>
+          <img src="Subscribe.PNG" class="imgLogo" />
+        </div>    
+      </div>    
+    </div>    
+    <script src="index.js"></script>
+  </body>
+</html>
